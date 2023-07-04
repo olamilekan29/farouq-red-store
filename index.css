@@ -1,0 +1,655 @@
+
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.sect-1{
+    background: radial-gradient(rgb(255, 255, 255), rgb(255, 214, 214));
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.ball{
+    justify-content: space-between;
+}
+.workout{
+    margin-left: 40px;
+}
+.workout h2{
+    font-size: 55px;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 130px;
+    line-height: 1.2;
+    
+}
+.workout p{
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.items{
+display: flex;
+justify-content: space-between;
+}
+.items li {
+    margin-left: 10px;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    
+}
+.items li :hover{
+    color: yellow;
+    border: none;
+    cursor: pointer;
+    
+}
+.items img{
+    width: 55px;
+
+}
+.button button{
+    background-color: #ff532b;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    width: 150px !important;
+    text-align: center;
+    align-items: center;
+}
+.ball{
+    display: flex;
+}
+.ball img{
+    width: 500px;
+    margin-top: 50px;
+}
+.workout button{
+    height: 25px;
+    width: 100px;
+    margin-bottom: 80px;
+}
+.shoe{
+    margin-left: 220px;
+    margin-top: 120px;
+}
+.shoe img{
+width: 250px;
+    height: 400px;
+justify-content: space-between;
+margin-left: 35px;
+
+}
+select option{
+    border: 1px solid #ff532b !important;
+}
+
+.shorting{
+   justify-content: space-between;
+   display: flex;
+   margin-left: 255px;
+   margin-right: 255px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.shorting span{
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    font-weight: 400;
+}
+.shorting select{
+border: blueviolet;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.section-1{
+display: flex;
+justify-content: space-between;
+margin-left: 250px;
+margin-right: 250px;
+
+
+}
+
+.redshirt{
+    display: grid;
+   height: 20px; 
+}
+.shirt img{
+    height: 250px;
+}
+.shirt img:hover{
+    background-color: #ff8057!important;
+    border: 2px solid none!important;
+    color: #fff;
+    box-shadow: 0 16px 16px -8px rgb(0 0 0 / 16%);
+}
+.star-1{
+    display: flex;
+    
+}
+
+.cloth2{
+    display: flex;
+justify-content: space-between;
+margin-left: 250px;
+margin-right: 250px;
+margin-top: 50px;
+}
+.shirt-2 img{
+   width: 180px;
+   height: 255px;
+}
+.cloth3{
+    display: flex;
+justify-content: space-between;
+margin-left: 250px;
+margin-right: 250px;
+margin-top: 50px;
+}
+.shirt-3 img{
+    width: 180px;
+    height: 255px;
+ }
+ .page-btn{
+    margin-top: 30px;
+    margin-left: 225px;
+    margin-bottom: 30px;
+ }
+ .page-btn span{
+        width: 100px;
+        border: 1px solid rgba(255, 81, 0, 0.692);
+        height: 20px;
+        padding: 10px;
+        margin-right: 10px;
+ }
+ .page-btn  :hover{
+    background-color: rgba(255, 81, 0, 0.692);
+    cursor: pointer;
+ }
+ .galery{
+    display: flex;
+    margin-right: 225px;
+}
+ .guy{
+    display: grid;
+    
+    margin-left: 225px;
+ }
+ .change {
+    width: 330px;
+ }
+.flex{
+    display: flex;
+}
+.flex img{
+    width: 75px;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.text{
+    margin-left: 50px;
+}
+.text h1{
+    font-size: 40px;
+}
+.select2{
+    border: 1px solid #ff8057;
+ 
+    height: 25px;
+    width: 100px;
+}
+.size{
+    display: grid;
+}
+.select3{
+    border: 1px solid #ff8057;
+    height: 50px;
+    width: 60px;
+    margin-top: 10px;
+}
+.btn{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    margin-left: 20px;
+    background-color: rgb(255, 82, 59);;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+}
+
+.indent{
+    display: flex;
+
+}
+
+.men p{
+color: rgb(75, 74, 74);
+}
+
+.title{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+}
+/* .title {
+    content: "box";
+    width: 80px;
+    height: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(255, 82, 59);
+    border-radius: 5px;} */
+
+
+    .cloth4{
+        display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 60px;
+    margin-bottom: 103px;
+   
+    }
+    .shirt-2 img{
+       width: 180px;
+       height: 255px;
+    }
+
+  .wrist{
+    background: radial-gradient(rgb(255, 255, 255), rgb(255, 214, 214));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.wrist img{
+    margin-right: 300px;
+}
+.bton{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+
+.testimonial{
+    padding-top: 100px;
+    display: flex !important;
+}
+.row{
+    display: flex;
+    margin-left: 200px;
+}
+.rating img{
+    color:#ff8057 ;
+    width: 15px !important;
+}
+
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 250px;
+    margin-right: 20px;
+    transition: transform 0.5s;
+}
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-15px);
+
+}
+.fa.fa-quote-left{
+    color: #ff532b;
+    font-size: 35px;
+}
+
+.col-3 p {
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+
+}
+.testimonial .col-3 h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: #555;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.col-6 img{
+    cursor: pointer;
+    width: 100%;
+    filter: grayscale(100%);
+}
+.col-6 img:hover{
+    filter: grayscale(0);
+}
+footer{
+    display: grid;
+    background-color: black;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    background: black;
+}
+.play-store{
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.play-store h3{
+    color: #fff;
+}
+.play-store span{
+    display: flex;
+}
+.play-store span img{
+    width: 150px;
+    border: none;
+}
+.play-store h4{
+    color: gray;
+}
+.weblogo{
+    margin-left: 90px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.weblogo img{
+    color: white;
+    width: 200px;
+}
+.weblogo h4{
+    color: white;
+}
+.link-1 ul li{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 50px;
+}
+.link-2 ul li{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+footer h4{
+    color: white;
+    text-align: center;
+}
+
+
+
+@media (max-width:990px){
+   
+    
+    
+    body{
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+       .sect-1{
+        display: grid;
+       }
+       nav ul {
+        position: absolute;
+        top:70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+       .workout h2{
+        font-size: 45px;
+        margin-top: 0;
+       }
+       .workout p {
+        font-size:12px;
+       }
+       .workout button{
+        display: grid;
+        margin-left: 40px;
+       }
+       .baller img{
+        width: 300px;
+        height: 300px;
+        margin-top: 0;
+       }
+      .shoe{
+        margin-left: 0px;
+        margin-left: 0px;
+        margin-top: 30px;
+        align-items: center !important;
+      }
+      .shoe img{
+       align-items: center !important;
+      }
+     .shorting{
+        margin: 0;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+     }
+     .section-1{
+        display: grid;
+        margin: 0;
+        padding: 70px !important;
+     }
+     
+    .ball{
+        display: grid !important;
+    }
+   .cloth2{
+    display: grid;
+    margin: 0;
+    margin-left: 70px !important;
+    
+   }
+   
+ .cloth3{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    margin-left: 60px;
+}
+.page-btn{
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+  .galery{
+    display: grid;
+    margin: 0 !important;
+    padding: 0 !important;
+    
+  }
+  .guy{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 20PX;
+  }
+  .change{
+    width: 10px;
+  }
+  .boyman{
+   width: 30px;
+} 
+.guy{
+    margin-left: 10px !important;
+}
+.flex img{
+  width: 63px !important;
+}
+.text{
+    font-size: 20px;
+}
+.men p{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.latestproduct{
+    display: grid;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.cloth4{
+    display: grid;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.ashshirt{
+    margin-bottom: 50px;
+}
+.wrist{
+    display: grid;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.wrist img{
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 0 !important;
+}
+.xclusive{
+    text-align: center;
+   
+}
+.xclusive h2{
+     font-size: 20px;
+     text-align: center;
+}
+.xclusive h4{
+    font-size: 8px;
+     text-align: center;
+}
+.small-container{
+    margin: 0;
+}
+.testimonial{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    display: grid;
+    margin: 0 !important;
+}
+.row .col-3{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.brand{
+    display: grid;
+    margin: 0;
+}
+.foot{
+    display: grid;
+    text-align: left !important;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.play-store span{
+    display: grid;
+}
+.weblogo{
+    display: grid;
+    margin: 0;
+    align-items: start !important;
+}
+.weblogo h4{
+    text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

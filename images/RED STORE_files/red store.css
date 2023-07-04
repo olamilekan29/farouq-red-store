@@ -1,0 +1,216 @@
+
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.sect-1{
+    background-color: rgba(255, 81, 0, 0.692);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   text-transform: uppercase;
+
+}
+.header img{
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+}
+.header li{
+display: flex;
+margin-top: 15px;
+align-items: center;
+}
+.workout{
+    
+    margin-left: 40px;
+    
+    
+}
+.workout h2{
+    font-size: 55px;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 130px;
+    line-height: 1.2;
+    
+}
+.workout p{
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.items{
+display: flex;
+justify-content: space-between;
+}
+.items li {
+    margin-left: 10px;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    
+}
+.items li :hover{
+    color: yellow;
+    border: none;
+    cursor: pointer;
+    
+}
+.items img{
+    width: 55px;
+}
+.ball{
+    display: flex;
+}
+.ball img{
+    width: 500px;
+    margin-top: 50px;
+}
+.workout button{
+    height: 25px;
+    width: 100px;
+    margin-bottom: 80px;
+}
+.shoe{
+    margin-left: 220px;
+    margin-top: 120px;
+}
+.shoe img{
+width: 250px;
+    height: 400px;
+justify-content: space-between;
+margin-left: 35px;
+
+}
+
+.shorting{
+   justify-content: space-between;
+   display: flex;
+   margin-left: 255px;
+   margin-right: 255px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.shorting span{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.shorting select{
+border: blueviolet;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.section-1{
+display: flex;
+justify-content: space-between;
+margin-left: 250px;
+margin-right: 250px;
+
+
+}
+
+.redshirt{
+    display: grid;
+   height: 20px; 
+}
+.shirt img{
+    height: 250px;
+}
+.star-1{
+    display: flex;
+    
+}
+@media (min-width: 990px){
+    .items{
+        display: none;
+        }
+    body{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+@media (max-width:600px){
+     body{
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+       .sect-1{
+        display: grid;
+       }
+       .header img{
+        width: 70px;
+       }
+       .items li{
+        display: none;
+       }
+       .items img{
+        display: none;
+       }
+       
+       .workout h2{
+        font-size: 45px;
+        margin-top: 0;
+       }
+       .workout p {
+        font-size:12px;
+       }
+       .workout button{
+        display: grid;
+        margin-left: 40px;
+       }
+       .baller img{
+        width: 300px;
+        height: 300px;
+        margin-top: 0;
+       }
+      .shoe{
+        margin-left: 0px;
+        margin-left: 0px;
+      }
+      .shoe img{
+       margin-left: 60px;
+      }
+     .shorting{
+        margin: 0;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+     }
+     .section-1{
+        display: grid;
+        margin: 0;
+        padding: 70px !important;
+     }
+     
+    .ball{
+        display: grid !important;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
